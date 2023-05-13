@@ -1,0 +1,163 @@
+/*Nav bar has the given color with a large font and its alligned at center */
+nav{ 
+    background-color: rgba(44, 172, 231, 0.39);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+/*Changes the color of the link*/
+a:link {
+  color: rgb(112, 112, 112);
+  background-color: transparent;
+  text-decoration: none;
+}
+/*Changes the colour of the link after its been clicked */
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+/*When you hover the mouse over the link it turns red */
+a:hover {
+  color: rgb(182, 47, 216);
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*When you click the link it turns yellow */
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*Gets the info class and changes font colour moves it right a little bit then centers the text */
+.Info{
+  background-color: rgba(2, 152, 221, 0.199);
+  padding-left: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+
+.EducationWhere{
+  position: absolute;
+  padding-left: 120em;
+  background-color: rgba(71, 68, 68, 0.013);
+  text-align:initial
+}
+
+.EducationGrades{
+  position: relative;
+  padding-left: 1em;
+  background-color: rgba(128, 128, 128, 0.315);
+  text-align: left;
+}
+
+h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.Experience{
+  padding-left: 1em;
+  text-align: center;
+}
+
+.Skills{
+  padding-left: 1em;
+  text-align: center;
+}
+
+.Contactinfo{
+  float: right;
+  font-size: large;
+  padding-right: 10em;
+  background-color: rgba(2, 152, 221, 0.424);
+  text-align: center;
+  padding-left: 10em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.contact{
+  text-align: center;
+}
+.Register{
+  text-align: center;
+  background-color: rgba(2, 152, 221, 0.424);
+  font-family: 'Courier New', Courier, monospace;
+}
+.Login{
+  text-align: center;
+  background-color: rgba(2, 152, 221, 0.424);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Entry{
+  text-align: center;
+  background-color: rgba(2, 152, 221, 0.424);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 0, 242, 0.233);
+}
+
+h6{
+  font-size: small;
+}
+
+.blogImage{
+  padding-top: 10em;
+}
+
+.linkedin{
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.facebook{
+  padding-left: 1.7em;
+  padding-top: 2.5em;
+}
+
+.postbox{
+  size: 50em;
+  text-align: center;
+  font-size: larger;
+}
+
+.required{
+  background-color: red;
+}
+
+
+.blogpost{
+  text-align: center;
+}
+
+.container{
+  background-color: rgba(75, 135, 204, 0.123);
+}
+
+.container2{
+  background-color: rgba(75, 135, 204, 0.123);
+
+}
+
+h4{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
